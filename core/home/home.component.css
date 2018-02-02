@@ -1,0 +1,10 @@
+.badge {
+	margin-left: 5px;
+	font-size: 0.8em;
+}
+.registerLink {
+	font-size: 18px;
+}
+.registerLink:hover {
+	text-decoration: none;
+}

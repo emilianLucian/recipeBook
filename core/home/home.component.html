@@ -1,0 +1,42 @@
+<h2 class="text-center" style="font-family: 'Chivo', sans-serif;">Welcome to the Recipe Book</h2>
+<hr>
+<div class="row">
+  <div class="col-md-6 col-xs-6 col-lg-6">
+		<button 
+		type="button" 
+		class="btn btn-info btn-block" 
+		data-toggle="collapse"
+		data-target="#demo">
+		  <h4>Create Account
+		  	<span class="badge">more info<span class="caret" style="margin-left: 3px;"></span></span>
+		  </h4>
+		</button>
+		<br>
+		<div id="demo">
+			 <ul class="list-group">
+			  <li class="list-group-item list-group-item-info">
+			     	<a class="registerLink" routerLink="/register">Create a free account (unlimited time)</a>
+			  	</li>
+				<li class="list-group-item list-group-item-info">Full access to all webstie's features</li>
+				<li class="list-group-item list-group-item-info">Add your recipes</li>
+				<li class="list-group-item list-group-item-info">Edit existing recipes or yours</li>
+				<li class="list-group-item list-group-item-info">After login into your account you can Save Data and Fetch it</li>
+			 </ul>
+			<li class="list-group-item list-group-item-warning">
+				 <p>You can use a test account to try our website: </p>
+				 <small style="padding-left: 20px; font-size: 16px;">Mail: <i>test@test.com</i></small>
+				 <br>
+				 <small style="padding-left: 20px; font-size: 16px;">Password: <i>password</i></small>
+			</li>
+		</div>
+	</div>
+  <div class="col-md-6 col-xs-6 col-lg-6">
+	<button 
+	class="homeButton btn btn-success btn-block" 
+	routerLink="/login">
+	  <h4>You already have an account?
+		<span class="badge">Login</span>
+	  </h4>
+	</button>
+  </div>
+</div>
