@@ -1,0 +1,20 @@
+hr {
+	border-bottom-color: none;
+	border-image: none;
+	border-left-color: none;
+	border-right-color: none;
+	border-top-color: none;
+	border-color: #c7cccb;
+	border-width: 1px 0;
+	border-style: solid none;
+}
+
+p {
+	font-size: 20px;
+	padding-top: 8px;
+}
+
+.linkIcon {
+	font-size: 16px;
+	padding-left: 5px;
+}
